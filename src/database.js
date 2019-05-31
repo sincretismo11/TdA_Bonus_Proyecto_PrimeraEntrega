@@ -70,7 +70,9 @@ function imprimirCurso(identificador){
 function validarCurso(identificador, nombre, cedula){
 	if(existeCurso(identificador)){
 		imprimirCurso(identificador);
-		generarArchivo(cursos[(identificador-1)],nombre, cedula);
+		//EL TEXTO QUE RETORNA validarCurso() ES EL MISMO QUE RECIBIÓ generarArchivo() Y QUE SE IMPRIMIRÁ EN EL BROWSER
+		//var texto = generarArchivo(cursos[(identificador-1)],nombre, cedula);
+		//return texto;
 	}
 	else{
 		console.log('\nNo existe el curso consultado. \nPor favor, verifique el ID que desea consultar');
