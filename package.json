@@ -9,7 +9,7 @@
   "author": "Jonathan Penia jopenara@unal.edu.co",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "hbs": "^4.0.4",
     "nodemon": "^1.19.1",
     "yargs": "^13.2.4"
